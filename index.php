@@ -44,7 +44,9 @@
             echo "<p class=\"variablecolour\">please choose one</p>";
           }
           ?>
-      <input type="submit" value="Submit">
+          <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" type="submit" value="Submit">
+  Submit
+</button>
       </form>
       
         
