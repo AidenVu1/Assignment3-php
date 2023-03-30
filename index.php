@@ -28,12 +28,19 @@
         large $6.00
         <input type="radio" id="large" class="mdl-radio__button" name="pizza_size" value="6.00">
       </label>
+    </span> <br>
+    <span class="mdl-list__item-secondary-content">
+      <label class="demo-list-radio mdl-radio mdl-js-radio mdl-js-ripple-effect" for="extra_large">
+        extra large $10.00
+        <input type="radio" id="extra_large" class="mdl-radio__button" name="pizza_size" value="10.00">
+      </label> <br>
     </span>
-  </li>
-      <input type="radio" id="extra_large" name="pizza_size" value="10.00">
-      <label for="extra_large">extra large $10.00</label><br>
-      <input type="radio" id="cancel_order" name="pizza_size" value="0">
-      <label for="cancel_order">cancel order</label><br>
+    <span class="mdl-list__item-secondary-content">
+      <label class="demo-list-radio mdl-radio mdl-js-radio mdl-js-ripple-effect" for="cancel_order">
+        cancel order
+        <input type="radio" id="cancel_order" class="mdl-radio__button" name="pizza_size" value="0">
+      </label> <br>
+    </span>
       <p text>Choose your pizza toppings</p>
       <input type="radio" id="1t" name="toppings" value="1.00" required>
       <label for="1t">1 toppings $1.00</label><br>
@@ -45,6 +52,7 @@
       <label for="4t">4 toppings $3.25</label><br>
       <input type="radio" id="0t" name="toppings" value="0">
       <label for="0t">cancel order</label><br><br>
+      </li>
       <?php
         if (isset($_GET) && $_GET['error'] == 1) {
             echo "<p class=\"variablecolour\">please choose one</p>";
