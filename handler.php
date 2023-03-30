@@ -48,7 +48,6 @@ if ($_POST['pizza_size']==0){
     elseif($_POST['toppings']==3.25){
       $toppings="4 toppings";
     }
-    print('awaiting your request');
     sleep(5);
 echo "your $size pizza with $toppings cost you $";
 echo round($m*1.13,2);}?>

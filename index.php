@@ -22,8 +22,17 @@
         <main class="mdl-layout__content" style="margin-left:75px;">
       <p text>Choose your pizza size</p>
       <form  action="handler.php" method=post>
-      <input type="radio" id="large" name="pizza_size" value="6.00" required>
-      <label for="large">large $6.00</label><br>
+      <li class="mdl-list__item">
+    <span class="mdl-list__item-primary-content">
+      Aaron Paul
+    </span>
+    <span class="mdl-list__item-secondary-action">
+      <label class="demo-list-radio mdl-radio mdl-js-radio mdl-js-ripple-effect" for="list-option-1">
+      large $6.00
+        <input type="radio" id="large" class="mdl-radio__button" name="pizza_size" value="6.00" required>
+      </label>
+    </span>
+  </li>
       <input type="radio" id="extra_large" name="pizza_size" value="10.00">
       <label for="extra_large">extra large $10.00</label><br>
       <input type="radio" id="cancel_order" name="pizza_size" value="0">
