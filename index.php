@@ -19,7 +19,7 @@
         </div>
       </header>
       
-        <main class="mdl-layout__content" style="margin-left:75px;">
+        <main class="mdl-layout__content">
       <p text>Choose your pizza size</p>
       <form  action="handler.php" method=post>
       <li class="mdl-list__item">
@@ -28,7 +28,7 @@
     </span>
     <span class="mdl-list__item-secondary-action">
       <label class="demo-list-radio mdl-radio mdl-js-radio mdl-js-ripple-effect" for="list-option-1">
-        <input type="radio" id="large" class="mdl-radio__button" name="pizza_size" value="6.00" required>
+        <input type="radio" id="large" class="mdl-radio__button" name="pizza_size" value="6.00" checked>
       </label>
     </span>
   </li>
