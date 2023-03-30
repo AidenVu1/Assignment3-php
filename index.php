@@ -25,10 +25,8 @@
       <li class="mdl-list__item">
     <span class="mdl-list__item-primary-content">
         large $6.00
-    </span>
-    <span class="mdl-list__item-secondary-action">
       <label class="demo-list-radio mdl-radio mdl-js-radio mdl-js-ripple-effect" for="list-option-1">
-        <input type="radio" id="large" class="mdl-radio__button" name="pizza_size" value="6.00" checked>
+        <input type="radio" id="large" class="mdl-radio__button" name="pizza_size" value="6.00">
       </label>
     </span>
   </li>
