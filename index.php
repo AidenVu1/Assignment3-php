@@ -42,16 +42,30 @@
       </label> <br>
     </span>
       <p text>Choose your pizza toppings</p>
-      <input type="radio" id="1t" name="toppings" value="1.00" required>
-      <label for="1t">1 toppings $1.00</label><br>
-      <input type="radio" id="2t" name="toppings" value="1.75">
-      <label for="2t">2 toppings $1.75</label><br>
-      <input type="radio" id="3t" name="toppings" value="2.50">
-      <label for="3t">3 toppings $2.50</label><br>
-      <input type="radio" id="4t" name="toppings" value="3.25">
-      <label for="4t">4 toppings $3.25</label><br>
-      <input type="radio" id="0t" name="toppings" value="0">
-      <label for="0t">cancel order</label><br><br>
+      <span class="mdl-list__item-secondary-content">
+      <label class="demo-list-radio mdl-radio mdl-js-radio mdl-js-ripple-effect" for="1t">
+        1 toppings $1.00
+        <input type="radio" id="1t" class="mdl-radio__button" name="toppings" value="1.00">
+      </label> <br>
+    </span>
+    <span class="mdl-list__item-secondary-content">
+      <label class="demo-list-radio mdl-radio mdl-js-radio mdl-js-ripple-effect" for="2t">
+        2 toppings $1.75
+        <input type="radio" id="2t" class="mdl-radio__button" name="toppings" value="1.75">
+      </label> <br>
+    </span>
+    <span class="mdl-list__item-secondary-content">
+      <label class="demo-list-radio mdl-radio mdl-js-radio mdl-js-ripple-effect" for="3t">
+        3 toppings $2.50
+        <input type="radio" id="3t" class="mdl-radio__button" name="toppings" value="2.50">
+      </label> <br>
+    </span>
+    <span class="mdl-list__item-secondary-content">
+      <label class="demo-list-radio mdl-radio mdl-js-radio mdl-js-ripple-effect" for="4t">
+        4 toppings $3.25
+        <input type="radio" id="4t" class="mdl-radio__button" name="toppings" value="3.25">
+      </label> <br>
+    </span>
       </li>
       <?php
         if (isset($_GET) && $_GET['error'] == 1) {
