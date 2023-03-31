@@ -24,6 +24,7 @@
       <li class="mdl-list__item">
     <span class="mdl-list__item-primary-content">
       <li style="list-style: none">
+      <center>
       <div class="demo-card-wide mdl-card mdl-shadow--2dp">
   <div class="mdl-card__title">
     <h2 class="mdl-card__title-text">Pizza order</h2>
@@ -36,6 +37,7 @@
   <div class="mdl-card__menu">
   </div>
 </div>
+</center>
       <label class="demo-list-radio mdl-radio mdl-js-radio mdl-js-ripple-effect" for="large">
         large $6.00
         <input type="radio" id="large" class="mdl-radio__button" name="pizza_size" value="6.00">
