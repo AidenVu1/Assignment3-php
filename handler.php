@@ -49,6 +49,11 @@ if ($_POST['pizza_size']==0){
       $toppings="4 toppings";
     }
     sleep(5);
-echo "your $size pizza with $toppings cost you $";
-echo round($m*1.13,2);}?>
+}?>
+<td width='80' class='center'>
+    <?php
+    echo "your $size pizza with $toppings cost you $";
+    echo round($m*1.13,2);
+     ?>
+</td>
 </html>

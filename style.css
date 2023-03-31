@@ -15,3 +15,7 @@ div.container {
 .demo-card-wide > .mdl-card__menu {
     color: #fff;
 }
+
+.center {
+    text-align:center;
+}
