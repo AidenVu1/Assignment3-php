@@ -18,14 +18,24 @@
           <span class="mdl-layout-title">pizza order</span>
         </div>
       </header>
-      
         <main class="mdl-layout__content">
         <div class="container">
       <form  action="handler.php" method=post>
       <li class="mdl-list__item">
     <span class="mdl-list__item-primary-content">
       <li style="list-style: none">
-      <p text>Choose your pizza size</p>
+      <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+  <div class="mdl-card__title">
+    <h2 class="mdl-card__title-text">Pizza order</h2>
+  </div>
+  <div class="mdl-card__supporting-text">
+    choose any size and toppings
+  </div>
+  <div class="mdl-card__actions mdl-card--border">
+  </div>
+  <div class="mdl-card__menu">
+  </div>
+</div>
       <label class="demo-list-radio mdl-radio mdl-js-radio mdl-js-ripple-effect" for="large">
         large $6.00
         <input type="radio" id="large" class="mdl-radio__button" name="pizza_size" value="6.00">
