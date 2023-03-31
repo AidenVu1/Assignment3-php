@@ -18,4 +18,6 @@ div.container {
 
 .center {
     text-align:center;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
 }
