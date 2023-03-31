@@ -27,40 +27,28 @@
       <label class="demo-list-radio mdl-radio mdl-js-radio mdl-js-ripple-effect" for="large">
         large $6.00
         <input type="radio" id="large" class="mdl-radio__button" name="pizza_size" value="6.00">
-      </label>
-    </span> <br>
-    <span class="mdl-list__item-secondary-content">
+      </label> <br>
       <label class="demo-list-radio mdl-radio mdl-js-radio mdl-js-ripple-effect" for="extra_large">
         extra large $10.00
         <input type="radio" id="extra_large" class="mdl-radio__button" name="pizza_size" value="10.00">
       </label> <br>
-    </span>
-    <span class="mdl-list__item-secondary-content">
       <label class="demo-list-radio mdl-radio mdl-js-radio mdl-js-ripple-effect" for="cancel_order">
         cancel order
         <input type="radio" id="cancel_order" class="mdl-radio__button" name="pizza_size" value="0">
       </label> <br>
-    </span>
       <p text>Choose your pizza toppings</p>
-      <span class="mdl-list__item-secondary-content">
       <label class="demo-list-radio mdl-radio mdl-js-radio mdl-js-ripple-effect" for="1t">
         1 toppings $1.00
         <input type="radio" id="1t" class="mdl-radio__button" name="toppings" value="1.00">
       </label> <br>
-    </span>
-    <span class="mdl-list__item-secondary-content">
       <label class="demo-list-radio mdl-radio mdl-js-radio mdl-js-ripple-effect" for="2t">
         2 toppings $1.75
         <input type="radio" id="2t" class="mdl-radio__button" name="toppings" value="1.75">
       </label> <br>
-    </span>
-    <span class="mdl-list__item-secondary-content">
       <label class="demo-list-radio mdl-radio mdl-js-radio mdl-js-ripple-effect" for="3t">
         3 toppings $2.50
         <input type="radio" id="3t" class="mdl-radio__button" name="toppings" value="2.50">
       </label> <br>
-    </span>
-    <span class="mdl-list__item-secondary-content">
       <label class="demo-list-radio mdl-radio mdl-js-radio mdl-js-ripple-effect" for="4t">
         4 toppings $3.25
         <input type="radio" id="4t" class="mdl-radio__button" name="toppings" value="3.25">
