@@ -22,7 +22,7 @@
         <main class="mdl-layout__content">
       <p text>Choose your pizza size</p>
       <form  action="handler.php" method=post>
-      <li class="mdl-list__item">
+      <li class="mdl-list__item" style="list-style: none">
     <span class="mdl-list__item-primary-content">
       <li>
       <label class="demo-list-radio mdl-radio mdl-js-radio mdl-js-ripple-effect" for="large">
