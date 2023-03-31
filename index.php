@@ -23,7 +23,6 @@
       <form  action="handler.php" method=post>
       <li class="mdl-list__item">
     <span class="mdl-list__item-primary-content">
-      <center>
       <li style="list-style: none">
       <p text>Choose your pizza size</p>
       <label class="demo-list-radio mdl-radio mdl-js-radio mdl-js-ripple-effect" for="large">
@@ -58,7 +57,6 @@
       </label> <br> </li>
     </span>
       </li>
-</center>
       <?php
         if (isset($_GET) && $_GET['error'] == 1) {
             echo "<p class=\"variablecolour\">please choose one</p>";
