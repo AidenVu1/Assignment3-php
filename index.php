@@ -32,13 +32,7 @@
   <div class="mdl-card__supporting-text">
     choose any size and toppings
   </div>
-  <div class="mdl-card__actions mdl-card--border">
-  </div>
-  <div class="mdl-card__menu">
-  </div>
-</div>
-</center>
-      <label class="demo-list-radio mdl-radio mdl-js-radio mdl-js-ripple-effect" for="large">
+  <label class="demo-list-radio mdl-radio mdl-js-radio mdl-js-ripple-effect" for="large">
         large $6.00
         <input type="radio" id="large" class="mdl-radio__button" name="pizza_size" value="6.00">
       </label> <br> </li>
@@ -70,6 +64,13 @@
       </label> <br> </li>
     </span>
       </li>
+  <div class="mdl-card__actions mdl-card--border">
+  </div>
+  <div class="mdl-card__menu">
+  </div>
+</div>
+</center>
+      
       <?php
         if (isset($_GET) && $_GET['error'] == 1) {
             echo "<p class=\"variablecolour\">please choose one</p>";
