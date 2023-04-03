@@ -21,55 +21,50 @@
         <main class="mdl-layout__content">
         <div class="container">
       <form  action="handler.php" method=post>
-      <li class="mdl-list__item">
-    <span class="mdl-list__item-primary-content">
-      <li style="list-style: none">
-      <center>
-      <div class="demo-card-wide mdl-card mdl-shadow--2dp">
-  <div class="mdl-card__title">
-    <h2 class="mdl-card__title-text">Pizza order</h2>
-  </div>
-  <div class="mdl-card__supporting-text">
-    choose any size and toppings
-  </div>
-  <label class="demo-list-radio mdl-radio mdl-js-radio mdl-js-ripple-effect" for="large">
-        large $6.00
-        <input type="radio" id="large" class="mdl-radio__button" name="pizza_size" value="6.00">
-      </label> <br> </li>
-      <li style="list-style: none">
-      <label class="demo-list-radio mdl-radio mdl-js-radio mdl-js-ripple-effect" for="extra_large">
-        extra large $10.00
-        <input type="radio" id="extra_large" class="mdl-radio__button" name="pizza_size" value="10.00">
-      </label> <br> </li>
-      <p text>Choose your pizza toppings</p>
-      <li style="list-style: none">
-      <label class="demo-list-radio mdl-radio mdl-js-radio mdl-js-ripple-effect" for="1t">
-        1 toppings $1.00
-        <input type="radio" id="1t" class="mdl-radio__button" name="toppings" value="1.00">
-      </label> <br> </li>
-      <li style="list-style: none">
-      <label class="demo-list-radio mdl-radio mdl-js-radio mdl-js-ripple-effect" for="2t">
-        2 toppings $1.75
-        <input type="radio" id="2t" class="mdl-radio__button" name="toppings" value="1.75">
-      </label> <br> </li>
-      <li style="list-style: none">
-      <label class="demo-list-radio mdl-radio mdl-js-radio mdl-js-ripple-effect" for="3t">
-        3 toppings $2.50
-        <input type="radio" id="3t" class="mdl-radio__button" name="toppings" value="2.50">
-      </label> <br> </li>
-      <li style="list-style: none">
-      <label class="demo-list-radio mdl-radio mdl-js-radio mdl-js-ripple-effect" for="4t">
-        4 toppings $3.25
-        <input type="radio" id="4t" class="mdl-radio__button" name="toppings" value="3.25">
-      </label> <br> </li>
-    </span>
-      </li>
   <div class="mdl-card__actions mdl-card--border">
   </div>
   <div class="mdl-card__menu">
   </div>
 </div>
-</center>
+<div class="options demo-card-square mdl-card mdl-shadow--2dp">
+                <div class="mdl-card__title mdl-card--border">
+                  <h2 class="mdl-card__title-text h6">What size would you like?</h2>
+                </div>
+                <div class="mdl-card__supporting-text">
+                  <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="large">
+                    <input type="radio" id="large" class="mdl-radio__button" name="pizza_size" value="6.00">
+                    <span class="choices mdl-radio__label">Large $6.00</span>
+                  </label>
+                  <br>
+                  <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="extra_large">
+                    <input type="radio" id="extra_large" class="mdl-radio__button" name="pizza_size" value="10.00">
+                    <span class="choices mdl-radio__label">Extra Large $10.00</span>
+                  </label>
+</div>
+<div class="options demo-card-square mdl-card mdl-shadow--2dp">
+                <div class="mdl-card__title mdl-card--border">
+                  <h2 class="mdl-card__title-text h6">What toppings would you like?</h2>
+                </div>
+                <div class="mdl-card__supporting-text">
+                  <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="1t">
+                    <input type="checkbox" id="1t" class="mdl-checkbox__input" name="toppings" value="1.00">
+                    <span class="choices mdl-checkbox__label">1 topping $1.00</span>
+                  </label>
+                  <br>
+                  <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="2t">
+                    <input type="checkbox" id="2t" class="mdl-checkbox__input" name="toppings" value="1.75">
+                    <span class="choices mdl-checkbox__label">2 toppings $1.75</span>
+                  </label>
+                  <br>
+                  <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="3t">
+                    <input type="checkbox" id="3t" class="mdl-checkbox__input" name="toppings" value="2.50">
+                    <span class="choices mdl-checkbox__label">3 toppings $2.50</span>
+                  </label>
+                  <br>
+                  <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="4t">
+                    <input type="checkbox" id="4t" class="mdl-checkbox__input" name="t4" value="3.25">
+                    <span class="choices mdl-checkbox__label">4 toppings $3.25</span>
+                  </label>
       <?php
         if (isset($_GET) && $_GET['error'] == 1) {
             echo "<p class=\"variablecolour\">please choose one</p>";
