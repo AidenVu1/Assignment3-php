@@ -50,7 +50,7 @@ if ($_POST['pizza_size']==0){
     }
     sleep(5);
 }?>
-<p class="center">
+<p class="center" style="font-family:'verdana'>
     <?php
     echo "your $size pizza with $toppings cost you $";
     echo round($m*1.13,2);
