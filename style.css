@@ -4,13 +4,12 @@ div.container {
 
 .demo-card-wide.mdl-card {
     width: 512px;
-    background: #3E4EB8;
+    background: url('6776_Pizza-Dough_ddmfs_4x3_1724-fd91f26e0bd6400a9e89c6866336532b.jpg');
     text-align: center;
 }
 .demo-card-wide > .mdl-card__title {
     color: #fff;
     height: 176px;
-    background: url('6776_Pizza-Dough_ddmfs_4x3_1724-fd91f26e0bd6400a9e89c6866336532b.jpg') center / cover;
 }
 .demo-card-wide > .mdl-card__menu {
     color: #fff;
