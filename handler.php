@@ -24,10 +24,10 @@
         <?php
 $m=$_POST['pizza_size']+$_POST['toppings'];
 if ($_POST['pizza_size']==0){
-  echo "order canceled";
+  echo "";
 }
   elseif ($_POST['toppings']==0){
-  echo "order canceled";
+  echo "";
   }
   else{
     if ($_POST['pizza_size']==6.00){
