@@ -34,12 +34,12 @@
                 <div class="mdl-card__supporting-text" style='background: white;'>
                   <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="large">
                     <input type="radio" id="large" class="mdl-radio__button" name="pizza_size" value="6.00">
-                    <span class="choices mdl-radio__label" style="font-color: black;">Large $6.00</span>
+                    <span class="choices mdl-radio__label" style="color: black;">Large $6.00</span>
                   </label>
                   <br>
                   <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="extra_large">
                     <input type="radio" id="extra_large" class="mdl-radio__button" name="pizza_size" value="10.00">
-                    <span class="choices mdl-radio__label" style="font-color: black;">Extra Large $10.00</span>
+                    <span class="choices mdl-radio__label" style="color: black;">Extra Large $10.00</span>
                   </label>
 </div>
 <div class="options demo-card-square mdl-card mdl-shadow--2dp">
@@ -49,22 +49,22 @@
                 <div class="mdl-card__supporting-text" style='background: white;'>
                   <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="1t">
                     <input type="radio" id="1t" class="mdl-radio__button" name="toppings" value="1.00">
-                    <span class="choices mdl-radio__label" style="font-color: black;">1 topping $1.00</span>
+                    <span class="choices mdl-radio__label" style="color: black;">1 topping $1.00</span>
                   </label>
                   <br>
                   <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="2t">
                     <input type="radio" id="2t" class="mdl-radio__button" name="toppings" value="1.75">
-                    <span class="choices mdl-radio__label" style="font-color: black;">2 topping $1.75</span>
+                    <span class="choices mdl-radio__label" style="color: black;">2 topping $1.75</span>
                   </label>
                   <br>
                   <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="3t">
                     <input type="radio" id="3t" class="mdl-radio__button" name="toppings" value="2.50">
-                    <span class="choices mdl-radio__label" style="font-color: black;">3 topping $2.50</span>
+                    <span class="choices mdl-radio__label" style="color: black;">3 topping $2.50</span>
                   </label>
                   <br>
                   <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="4t">
                     <input type="radio" id="4t" class="mdl-radio__button" name="toppings" value="3.25">
-                    <span class="choices mdl-radio__label" style="font-color: black;">4 topping $3.25</span>
+                    <span class="choices mdl-radio__label" style="color: black;">4 topping $3.25</span>
                   </label>
 </div>
       <?php
