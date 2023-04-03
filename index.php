@@ -67,7 +67,6 @@
                     <span class="choices mdl-radio__label">4 topping $3.25</span>
                   </label>
 </div>
-</center>
       <?php
         if (isset($_GET) && $_GET['error'] == 1) {
             echo "<p class=\"variablecolour\">please choose one</p>";
@@ -76,6 +75,7 @@
           <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" type="submit" value="Submit">
   Submit
 </button>
+</center>
       </form>
       </div>
       
