@@ -26,6 +26,7 @@
   <div class="mdl-card__menu">
   </div>
 </div>
+<center>
 <div class="options demo-card-square mdl-card mdl-shadow--2dp">
                 <div class="mdl-card__title mdl-card--border">
                   <h2 class="mdl-card__title-text h6">What size would you like?</h2>
@@ -43,28 +44,30 @@
 </div>
 <div class="options demo-card-square mdl-card mdl-shadow--2dp">
                 <div class="mdl-card__title mdl-card--border">
-                  <h2 class="mdl-card__title-text h6">What toppings would you like?</h2>
+                  <h2 class="mdl-card__title-text h6">How many toppings would you like?</h2>
                 </div>
                 <div class="mdl-card__supporting-text">
-                  <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="1t">
-                    <input type="checkbox" id="1t" class="mdl-checkbox__input" name="toppings" value="1.00">
-                    <span class="choices mdl-checkbox__label">1 topping $1.00</span>
+                  <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="1t">
+                    <input type="radio" id="1t" class="mdl-radio__button" name="toppings" value="1.00">
+                    <span class="choices mdl-radio__label">1 topping $1.00</span>
                   </label>
                   <br>
-                  <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="2t">
-                    <input type="checkbox" id="2t" class="mdl-checkbox__input" name="toppings" value="1.75">
-                    <span class="choices mdl-checkbox__label">2 toppings $1.75</span>
+                  <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="2t">
+                    <input type="radio" id="2t" class="mdl-radio__button" name="toppings" value="1.75">
+                    <span class="choices mdl-radio__label">2 topping $1.75</span>
                   </label>
                   <br>
-                  <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="3t">
-                    <input type="checkbox" id="3t" class="mdl-checkbox__input" name="toppings" value="2.50">
-                    <span class="choices mdl-checkbox__label">3 toppings $2.50</span>
+                  <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="3t">
+                    <input type="radio" id="3t" class="mdl-radio__button" name="toppings" value="2.50">
+                    <span class="choices mdl-radio__label">3 topping $2.50</span>
                   </label>
                   <br>
-                  <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="4t">
-                    <input type="checkbox" id="4t" class="mdl-checkbox__input" name="t4" value="3.25">
-                    <span class="choices mdl-checkbox__label">4 toppings $3.25</span>
+                  <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="4t">
+                    <input type="radio" id="4t" class="mdl-radio__button" name="toppings" value="3.25">
+                    <span class="choices mdl-radio__label">4 topping $3.25</span>
                   </label>
+</div>
+</center>
       <?php
         if (isset($_GET) && $_GET['error'] == 1) {
             echo "<p class=\"variablecolour\">please choose one</p>";
