@@ -4,7 +4,7 @@ div.container {
 
 .demo-card-wide.mdl-card {
     width: 512px;
-    background: url('6776_Pizza-Dough_ddmfs_4x3_1724-fd91f26e0bd6400a9e89c6866336532b.jpg');
+    background: blue;
     text-align: center;
 }
 .demo-card-wide > .mdl-card__title {
